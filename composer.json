@@ -1,0 +1,30 @@
+{
+    "name": "mateus2033/webjump",
+    "description": "description-text",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mateus Pereira",
+            "email": "mateus2033@outlook.com",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "coffeecode/router": "1.0.8",
+        "robmorgan/phinx": "^0.12.10",
+        "monolog/monolog": "^2.6",
+        "phpunit/phpunit": "^9"
+    }
+}
